@@ -1,0 +1,44 @@
+body {
+  background-color: #4b8bbe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.InputBox {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.Tile {
+  background-color: #ffe873;
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 48px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 45px;
+}
+
+.Word {
+  padding-top: 10px;
+}
+
+.center {
+  margin: auto;
+}
+
+.half {
+  width: 50%;
+}
+
+.pointValue {
+  font-size: 30px;
+}
