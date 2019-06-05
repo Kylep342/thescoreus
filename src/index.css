@@ -32,7 +32,12 @@ body {
 }
 
 .Word {
+  display: inline-block;
   padding-top: 10px;
+}
+
+.WordScore {
+  font-size: 48px;
 }
 
 .center {
