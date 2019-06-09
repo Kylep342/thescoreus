@@ -71,7 +71,7 @@ class Word extends React.Component {
     const wordScore = this.renderWordScore(letters);
 
     return (
-      <div>
+      <div className="WordContainer">
         <div className="Word">{letters}</div>
         <div className="WordScore">
           {isNaN(wordScore)
